@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FASHION</title>
+    <link rel="shortcut icon" href="img/logo.ico" />
+    <meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:300,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <!-- Include CSS File Here -->
+
+
+<meta content="noindex, nofollow" name="robots">
+<link href="css/register.css" rel="stylesheet">
+<script src="js/registere.js"></script>
+<!-- Include JS File Here -->
+
+  </head>
+  <body>
+   <header style="background-color: black; box-shadow: 0 1px 4px rgba(0, 0, 0, .1);">
+    <div class="container" style="padding-top: 8px;padding-bottom: 8px;">
+     <div class="grid-grid-two">
+       <a href="index.html"><img src="img/logo1.png" alt="logo" style="height: 64px ;" />
+
+     </div>
+     <div class="grid-grid-two" style="padding-top: 24px;text-align: right;">
+      <span><a href="store.html"> Cart</a></span>
+     </div>
+    </div>
+   </header>
+   <main class="container">
+
+    <nav id="product-nav" class="full">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="products.html">Products</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+	 <li><a href="payment_details.html">payment detail</a><li>
+      <li style="float: right"><a href="login.html">Login</a></li>
+       <li style="float: right"><a href="register.html">Register</a></li>
+    </nav>
+<div id="form_layout">
+<p id="head"></p>
+<!-- This segment displays the validation rule -->
+<h2> Register</h2>
+<!-- Form starts from here -->
+<form onsubmit='return formValidation()'>
+<label>UserName:</label>
+<input id='UserName' type='text'>
+<p id="p1"></p>
+<!-- This segment displays the validation rule for name -->
+<label>passcode(6-8 characters):</label>
+<input id='passcode' type='text'>
+<p id="p2"></p>
+<!-- This segment displays the validation rule for user name -->
+<label>Email:</label>
+<input id='email' type='text'>
+<p id="p3"></p>
+<!-- This segment displays the validation rule for email -->
+<label>Country:</label>
+<select id='Country'>
+<option>
+Please Choose
+</option>
+<option>
+India
+</option>
+<option>
+USA
+</option>
+<option>
+Canada
+</option>
+<option>
+California
+</option>
+<option>
+Ukraine
+</option>
+<option>
+London
+</option>
+<option>
+Italy
+</option>
+<option>
+German
+</option>
+<option>
+China
+</option>
+</select>
+<p id="p4"></p>
+<!-- This segment displays the validation rule for selection -->
+<label>Address:</label>
+<input id='addr' type='text'>
+<p id="p5"></p>
+<!-- This segment displays the validation rule for address -->
+<label>Zip Code:</label>
+<input id='zip' type='text'>
+<p id="p6"></p>
+<!-- This segment displays the validation rule for zip -->
+<input id="submit" type='submit' value='submit'>
+</form>
+</div>
+
+</main>
+<footer>
+ <div class="container">
+ <div class="full">
+  <div class="grid grid-three">
+  <h4 class="text-blue">PRODUCTS</h4>
+   <ul>
+    <li>T-shirts</li>
+    <li>Jeans</li>
+    <li>Shoes</li>
+   </ul>
+  </div>
+  <div class="grid grid-three">
+  <h4 class="text-blue">LINKS</h4>
+   <ul>
+    <li>T-shirts</li>
+    <li>Jeans</li>
+    <li>Shoes</li>
+   </ul>
+  </div>
+  <div class="grid grid-three">
+  <h4 class="text-blue">CONTACT</h4>
+   <ul>
+    <li>T-shirts</li>
+    <li>Jeans</li>
+    <li>Shoes</li>
+   </ul>
+  </div>
+ </div>
+ </div>
+</footer>
+</body>
+</html>
